@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The VAULT</title>
+	<!-- css files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+	<link rel="icon" type="image/x-icon" href="assets/img/logo.jpg">
+	<meta name="author" content="Hassan Ali">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="nav container void-background">
+			<!-- This "nav-menu" is hidden on mobile -->
+			<!-- Add the modifier "is-active" to display it on mobile -->
+			<div class="nav-left">
+				
+				<a href="https://github.com/TheVaultCI236" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-github"></i>
+					</span>
+				</a>
+				
+				</a>	
+				<a href="https://www.youtube.com/watch?v=jhLiRufe3MY&feature=youtu.be" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-youtube"></i>
+					</span>
+				</a>	
+				
+			</div>
+
+			<div class="nav-right nav-menu">
+				<a class="nav-item" href="index.html">Home</a>
+				<a class="nav-item" href="puzzles.html">Puzzles</a>
+				<a class="nav-item" href="contact.html">Contact</a>
+				
+			</div>
+
+			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+			<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+			<span class="nav-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</nav>
+		
+		<section id="title" class="section section-t">
+			<div class="container has-text-centered">
+				<t>THE VAULT</t>
+				<img class="avatar" src="assets/img/logo.jpg" align="right">
+				<div>
+				<h1>Contact</h1>
+				</div>
+			</div>
+		</section>
+	
+	<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+		<option value="uk">United Kingdom</option>
+		<option value="af">Africa</option>
+		<option value="i">India</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+	</div>
+		
+			
+		
+	
+	
+		
+		<!-- Footer -->
+		<section class="section-4 has-text-centered container">
+			<a>Integrated Group Project</a>
+		</section>
+		
+		<!-- Scripts  -->
+		<script src="controller.js"></script>
+    
+    
+	</body>	
+</html>
